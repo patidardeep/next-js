@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
     }
     return(
         <div>
-            <h1>Login Page</h1>
+            <h1 className="heading"> Login Page</h1>
             <br /><br />
             <Link href="/">Go back  to Home page</Link>
             <br /><br />

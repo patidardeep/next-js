@@ -1,0 +1,17 @@
+.main-line{
+display: flex;
+}
+.main-line li{
+    margin-left: 25px;
+    list-style-type: none;
+}
+.main-line li a{
+    text-decoration: none;
+}
+.main-line h4{
+    margin: 0;
+}
+.heading{
+    color: orange;
+    text-align: center;
+}
