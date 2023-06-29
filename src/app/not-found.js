@@ -1,12 +1,9 @@
-import Link from "next/link"
-
-
-
-export default function NotFound(){
+export default function Notfound(){
     return(
         <div>
-            <h1>This Page is Not Found.</h1>
-            <Link href="/" >go Back to Home page</Link>
+            <div>
+                <h1>This page is not awailable</h1>
+            </div>
         </div>
     )
 }

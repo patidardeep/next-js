@@ -1,26 +1,11 @@
-'use client'
 import Link from "next/link"
-import { useRouter } from "next/navigation"
 
- export default function Home(){
-//  const router = useRouter();
-const router = useRouter();
-const navigation = (name)=>{
-  router.push(name)
-}
-
-    return(
+export default function Home(){
+  return(
     <div>
-      <h1> MiddleWARE</h1>
-      <br /><br />
-
-      <Link href="/login/">Go to Login Page</Link>
-      <br /> <br />
-
-      {/* <button onClick={()=>router.push("/about")}>go to about page</button> */}
-      <button onClick={()=>navigation("/about")}>go to about page</button>
-
+      <h1>Fetch Data with API in Client Component</h1>
+      <Link href="/productlist">Go to Product List</Link>
 
     </div>
   )
- }
+}
