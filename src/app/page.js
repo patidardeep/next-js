@@ -11,7 +11,7 @@ const navigation = (name)=>{
 
     return(
     <div>
-      <h1> Naviagtion & Linking,Nested Routing | Make New Page</h1>
+      <h1> Dynamic routing</h1>
       <br /><br />
 
       <Link href="/login/">Go to Login Page</Link>
