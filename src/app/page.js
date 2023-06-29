@@ -11,7 +11,7 @@ const navigation = (name)=>{
 
     return(
     <div>
-      <h1> 404 not found</h1>
+      <h1> MiddleWARE</h1>
       <br /><br />
 
       <Link href="/login/">Go to Login Page</Link>
