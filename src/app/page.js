@@ -1,19 +1,24 @@
-'use client'
-import { useState } from "react"
-import style from './style.module.css'
+import Image from "next/image"
+import Profile from "../../public/img.jpg"
 
 export default function Home(){
-  const [color,setColor] = useState("red")
-  const {red} = style
+  console.log(Profile)
 return(
   <div>
-    <h1 className={color =="red"?style.red:style.green}>Condition  with Style</h1>
-    <h2 style={{backgroundColor:color=="red"?'red':'green'}}>Heading2 </h2>
-    <h3 id={style.orange}>Heading 3</h3>
-    <h4 className={red}>Deepak</h4>
-    <h4>Deepak</h4>
-    <h4>Deepak</h4>
-    <button onClick={()=>setColor("green")}>Update Color</button>
+   <h1>Image Optimization in Next</h1>
+{/* <Image
+src={Profile}
+/>
+
+<img
+src={Profile.src}
+/> */}
+<Image
+src="https://unsplash.com/photos/a-close-up-of-a-building-with-a-clock-on-it-7n289pEjSZ0"
+width={200}
+height={200}
+/>
+
   </div>
 )
 }
